@@ -1,5 +1,15 @@
 # 🔮 Customer Churn Prediction & Retention Analytics
 
+## 🚀 Live Demo
+
+**[👉 Open Live Application](https://customer-churn-prediction-ml-zfppfoktbrk3nsywhsxbcc.streamlit.app/)**
+
+## 📂 GitHub Repository
+
+This repository contains the complete source code, dataset, trained model, and deployment files.
+
+...
+
 > **End-to-End Machine Learning System** for predicting customer churn risk, explaining predictive key drivers, and delivering real-time retention recommendations via an interactive Streamlit web application.
 
 ---
