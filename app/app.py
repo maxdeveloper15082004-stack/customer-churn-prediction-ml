@@ -68,8 +68,8 @@ st.markdown("""
 
 
 def main():
-    st.markdown('<div class="main-header">🔮 Customer Churn Prediction & Retention Analytics</div>', unsafe_allow_dict=True)
-    st.markdown('<div class="sub-header">Production ML System for Customer Risk Scoring & Proactive Retention Guidance</div>', unsafe_allow_dict=True)
+    st.markdown('<div class="main-header">🔮 Customer Churn Prediction & Retention Analytics</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">Production ML System for Customer Risk Scoring & Proactive Retention Guidance</div>', unsafe_allow_html=True)
 
     # Sidebar: System Metadata & Model Info
     st.sidebar.title("ℹ️ Model Information")
