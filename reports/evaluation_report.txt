@@ -1,0 +1,34 @@
+==================================================
+CUSTOMER CHURN PREDICTION - FINAL EVALUATION REPORT
+==================================================
+Date: 2026-10-09 13:18:32
+Random State: 42
+Train Samples: 8000
+Test Samples: 2000
+
+HELD-OUT TEST SET METRICS:
+--------------------------------------------------
+Accuracy:  0.7110
+Precision: 0.6876
+Recall:    0.6861
+F1 Score:  0.6869
+ROC-AUC:   0.7747
+
+CONFUSION MATRIX:
+--------------------------------------------------
+True Negatives (TN):  788 (Correctly predicted Stays)
+False Positives (FP): 288 (False churn alarms)
+False Negatives (FN): 290 (Missed churners - High Cost!)
+True Positives (TP):  634 (Correctly caught Churners)
+
+CLASSIFICATION REPORT:
+--------------------------------------------------
+              precision    recall  f1-score   support
+
+  Stayed (0)       0.73      0.73      0.73      1076
+ Churned (1)       0.69      0.69      0.69       924
+
+    accuracy                           0.71      2000
+   macro avg       0.71      0.71      0.71      2000
+weighted avg       0.71      0.71      0.71      2000
+

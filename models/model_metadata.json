@@ -1,0 +1,13 @@
+{
+    "model_name": "Random Forest Classifier (Tuned)",
+    "training_date": "2026-10-09 13:18:32",
+    "random_state": 42,
+    "classification_threshold": 0.5,
+    "test_metrics": {
+        "accuracy": 0.711,
+        "precision": 0.6876,
+        "recall": 0.6861,
+        "f1_score": 0.6869,
+        "roc_auc": 0.7747
+    }
+}
